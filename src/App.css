@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: transparent;
+  background-color: #c5e1ec;
+  /* background-color: #040d22 */
+  background-color: #110A0C;
+}
+@media screen and (max-width: 768px) {
+  .cl-title{
+      color: #ffffff;
+  }
+  .bg-service {
+      background-color: #110A0C;
+      color: #ffffff
+  }
+  
+}

@@ -1,0 +1,16 @@
+
+  @media (max-width: 1024px) {
+    .mobile-styles {
+      width: 100% !important; 
+      object-fit: cover !important;
+      border-radius: 0.5rem !important;
+      margin-bottom: 0.5rem !important;
+      transition: transform 0.3s ease !important;
+      height: 10rem !important;
+      width: 72rem !important;
+    }
+    
+    .mobile-styles:hover {
+      transform: scale(0.95);
+    }
+  }
